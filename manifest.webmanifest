@@ -2,7 +2,7 @@
 	"dir" : "ltr",
 	"lang" : "English",
 	"name" : "Sonic 3D - Flickies' Island",
-	"scope" : "Sonic3DBlastPWA",
+	"scope" : "/Sonic3DBlastPWA/",
 	"display" : "fullscreen",
 	"start_url" : "https://pwastoreapp.github.io/Sonic3DBlastPWA/",
 	"short_name" : "Sonic 3D Blast",
