@@ -1,5 +1,19 @@
 <title>Sonic 3D Blast</title>
 <link rel="shortcut icon" href="icon.png" />
+<link rel="manifest" href="manifest.webmanifest">
+<script>
+document.addEventListener('DOMContentLoaded', init, false);
+function init() {
+	if("serviceWorker" in navigator) {
+		navigator.serviceWorker.register('serviceworker.js')
+		.then((registration) => {
+			console.log('Service Worker installed!');
+		}).catch((err) => {
+			console.error('Service Worker failed', err);
+		});
+	}
+}
+</script>  
 <body bgcolor="#000000">
 <center>
 <video width="600" height="680" autoplay="autoplay">
