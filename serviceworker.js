@@ -1,7 +1,7 @@
 var CACHE_NAME = 'my-site-cache-v3';
 var urlsToCache = [
-	'https://pwastoreapp.github.io/supermechs/index.html',
-  'https://pwastoreapp.github.io/supermechs/manifest.webmanifest',
+	'https://pwastoreapp.github.io/Sonic3DBlastPWA/index.html',
+  'https://pwastoreapp.github.io/Sonic3DBlastPWA/manifest.webmanifest',
 ];
 
 self.addEventListener('install', function(event) {
