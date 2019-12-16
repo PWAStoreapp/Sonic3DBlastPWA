@@ -1,13 +1,13 @@
 {
 	"dir" : "ltr",
 	"lang" : "English",
-	"name" : "SuperMechs",
-	"scope" : "/supermechs/",
+	"name" : "Sonic 3D - Flickies' Island",
+	"scope" : "Sonic3DBlastPWA",
 	"display" : "fullscreen",
-	"start_url" : "https://pwastoreapp.github.io/supermechs/",
-	"short_name" : "SuperMech",
+	"start_url" : "https://pwastoreapp.github.io/Sonic3DBlastPWA/",
+	"short_name" : "Sonic 3D Blast",
 	"theme_color" : "transparent",
-	"description" : "Build, Fight, Prevail!",
+	"description" : "Flickies",
 	"orientation" : "landscape",
 	"background_color" : "transparent",
 	"icons" : [
