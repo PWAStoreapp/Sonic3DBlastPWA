@@ -4,3 +4,24 @@
  <center>
  <img src="textures/title/title1.jpg" width="800" height="600">   
  </center>
+<script>
+[container]{
+    overflow:scroll;
+    overflow-x:hidden;
+}
+[container]::-webkit-scrollbar{
+    width:0;
+    background-color:transparent;
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript">
+<style>
+body, html { 
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+</style>
+<body oncontextmenu="return false;">
+<script>
+document.addEventListener('contextmenu', event => event.preventDefault());	
+</script>
