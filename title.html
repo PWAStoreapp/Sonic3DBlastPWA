@@ -56,3 +56,10 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 </style>
+<script>
+document.body.addEventListener("keydown", function (event) {
+    if (event.keyCode === 32) {
+        window.location.replace("/*your url here*/");
+    }
+});
+</script>
